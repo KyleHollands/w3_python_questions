@@ -1,6 +1,6 @@
 #!/bin/env/usr python
 
-"""Write a Python function to find the Max of three numbers."""
+""" Write a Python function to find the Max of three numbers. """
 
 # Method 1
 
