@@ -2,7 +2,7 @@
 
 """ Write a Python function that prints out the first n rows of Pascal's triangle. """
 
-# Method 1
+""" # Method 1
  
 n = int(input("Enter number of rows: "))
 a = []
@@ -19,7 +19,7 @@ for i in range(n):
     print("    "*(n-i), end="  ", sep="   ")
     for j in range(0, i+1):
         print('{0:6}'.format(a[i][j]), end="  ", sep="  ")
-    print()
+    print() """
     
 # Method 2
 
@@ -33,10 +33,3 @@ def pascal_triangle(n):
     return n >= 1
 
 pascal_triangle(6)
-    
-    
-    
-    
-    
-    
-    
