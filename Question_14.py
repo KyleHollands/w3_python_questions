@@ -4,7 +4,7 @@ import string, sys
 
 """ Write a Python function to check whether a string is a pangram or not. """
 
-""" # Method 1
+# Method 1
 
 def pangram(str):
     alphabet = "abcdefghijklmnopqrstuvwxyz"
@@ -19,7 +19,7 @@ string = "The quick brown fox jumps over the lazy dog"
 if(pangram(string) == True):
     print("Yes.")
 else:
-    print("No.") """
+    print("No.") """ """
     
 # Method 2
 
@@ -28,5 +28,3 @@ def ispangram(str1, alphabet=string.ascii_lowercase):
     return alphaset <= set(str1.lower())
 
 print( ispangram("The quick brown fox jumps over the lazy dog"))
-
-
