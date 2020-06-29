@@ -19,7 +19,7 @@ string = "The quick brown fox jumps over the lazy dog"
 if(pangram(string) == True):
     print("Yes.")
 else:
-    print("No.") """ """
+    print("No.")
     
 # Method 2
 
