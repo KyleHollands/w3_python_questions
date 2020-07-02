@@ -3,6 +3,7 @@
 import sys
 import os
 import re
+import futures
 
 
 """ Write a Python program to execute a string containing Python code. """
@@ -17,7 +18,7 @@ exec_string("while(i < 10): i += 1; print(i)")
 
 # Method 2
 
-""" def exec_string(code):
+def exec_string(code):
     ans = int(input("How many variables are required? (Max of 3) "))
     if ans == 1:
         var1 = int(input("Declare 'var1' variable value to be used with code: "))
@@ -33,7 +34,7 @@ exec_string("while(i < 10): i += 1; print(i)")
     
     return code
 
-exec_string(input("Enter code here: ")) """
+exec_string(input("Enter code here: "))
 
 # Method 3
 
