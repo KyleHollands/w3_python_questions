@@ -3,8 +3,6 @@
 import sys
 import os
 import re
-import futures
-
 
 """ Write a Python program to execute a string containing Python code. """
 
