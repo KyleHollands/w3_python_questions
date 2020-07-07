@@ -12,11 +12,12 @@ class py_solution:
         for i in range(len(s)):
             if i > 0 and rom_val[s[i]] > rom_val[s[i - 1]]:
                 int_val += rom_val[s[i]] - 2 * rom_val[s[i - 1]]
+                # print(int_val)
             else:
                 int_val += rom_val[s[i]]
+                # print(int_val)
         return int_val
     
 print(py_solution().roman_to_int('MMMCMLXXXVI'))
 print(py_solution().roman_to_int('MMMM'))
 print(py_solution().roman_to_int('C'))
-      

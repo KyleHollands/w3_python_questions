@@ -7,7 +7,7 @@ These brackets must be close in the correct order, for example "()" and "()[]{}"
 
 # Method 1
 
-""" class str_validity:
+class str_validity:
     def val_parantheses(self, s):
        pattern = r'(([{}]+)|([()]+)|([[]]+))+' 
        
@@ -17,7 +17,7 @@ These brackets must be close in the correct order, for example "()" and "()[]{}"
         
 print(str_validity().val_parantheses("(){}[]"))
 print(str_validity().val_parantheses("()[{)}"))
-print(str_validity().val_parantheses("()")) """
+print(str_validity().val_parantheses("()"))
 
 # Method 2
 
