@@ -12,10 +12,8 @@ class convert_lower_to_upper:
         self.input_string = input("Please enter a string to be converted to upper-case: ")
         
     def print_string(self):
-        print(self.input_string.upper())
+        print("The string converted to upper-case: " + self.input_string.upper())
         
 output_string = convert_lower_to_upper()
 output_string.get_string()
 output_string.print_string()
-
-    
